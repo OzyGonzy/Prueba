@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+@media (max-width: 600px){
+    .foto {
+        border-style: solid;
+        border-width: 4px;
+        border-color: rgb(170, 125, 0);
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+    .parrafo{
+        color: rgb(202, 202, 202);
+        text-align: center;;
+        text-indent: 30px;
+        font-family: "Zen Antique", serif;
+        width: 220x;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+        margin: auto;
+    }
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background: linear-gradient(to bottom right,rgb(29, 29, 29), rgb(45, 75, 100));
+}
+
+.sheet {
+    margin: 20px;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.header {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+.title {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: rgb(204, 139, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(134, 121, 0);
+}
+
+fieldset {
+    border-width: 3px;
+    border-color: rgb(170, 125, 0);
+    margin-top: 10px;
+    margin-bottom: 30x;
+    border-radius: 15px;
+}
+
+/* sigue contenido central/body */
+
+
+.contenido {
+    border-radius: 15px;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenido > div {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.fotoarea {
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.foto {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(170, 125, 0);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.parrafo {
+    color: rgb(202, 202, 202);
+    text-align: center;;
+    text-indent: 30px;
+    font-family: "Zen Antique", serif;
+    max-width: 500x;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    margin: auto;
+}
+
+.fparrafo {
+    color: rgb(202, 202, 202);
+    text-align: center;
+    font-family: "Zen Antique", serif;
+    font-size: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    margin: auto;
+}
+
+/* sigue parte inferior/footer */
+
+.footer {
+    text-align: center;
+}
+
+.redes {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.iconosredes {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
+    display: block;
+    margin: auto;
+}
